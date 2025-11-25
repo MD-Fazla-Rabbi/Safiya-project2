@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -8,32 +8,11 @@
   <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
   <script src="https://kit.fontawesome.com/fcde28876e.js" crossorigin="anonymous"></script>
 </head>
-<body class="w-[370]">
-  <!--<header class="">
-    <nav class=" ">
-        <div class="flex justify-between p-2 ">
-            <div class="flex items-center ">
-                <img src="img/icon2 colon.png" alt="">
-                <h1   >
-                  <b>
-                    Safiya
-                  </b>
-                    
-                </h1>
-            </div>
-            <input type="checkbox" value="synthwave" class="toggle theme-controller" />
-            <div class="flex items-center pl-3">
-                <button class=" bg-blue-400 rounded-md w-10">
-                    Login
-                </button>
-            </div>
-        </div>
-    </nav>
-  </header>-->
+<body class=" max-w-[1440px] mx-auto w-[370]">
 
 <!--                header colon       -->
 
-<header class=" w-[300]">
+<header class=" max-w-[1440px] mx-auto w-[300]">
     <nav class="border-b-1 sticky top-0 z-10">
         <div class="flex justify-between p-2 ">
             <div class="flex items-center ">
@@ -67,15 +46,20 @@
 
 <main>
     <section>
-      <div class="text-center p-2">
+      <div class="lg:flex justify-between items-center lg:p-16 text-center p-2">
           <div>
-            <h1 class="text  text-3xl">
+            <h1 class="text lg:hidden  text-3xl">
+              Landing <br> Template for <br> Startups
+            </h1>
+
+            <h1 class="text hidden lg:block font-extrabold text-5xl">
               Landing <br> Template for <br> Startups
             </h1>
           </div>
           <div>
            <p>
-             Our landing page <br> template works on all <br> devices, so you only <br> have to set <br> it up <br> once and get <br> beautiful results. 
+             Our landing page template works on all <br> devices, so you only 
+              have to set it up <br> once and get  beautiful results. 
            </p>
            <button class="bg-blue-400 text-2xl w-50 text-center rounded-md mt-2">
               Pricing and Plans
@@ -192,8 +176,8 @@
         <!--   section3 start here    -->
 
 
-        <section class="p-4 mt-15">
-          <div class="grid grid-cols-2 container pl-12 border-b-2 ">
+        <section class=" p-4 mt-15">
+          <div class="lg:flex md:flex grid grid-cols-2 container pl-12 border-b-2 ">
             <img src="img/Google Logo.svg" alt="" class="">
             <img src="img/Slack Logo.svg" alt="">
             <img src="img/Amazon Logo.svg" alt="">
@@ -226,7 +210,7 @@
 <!--           section5 start here    -->
 
       <section class="p-2 my-3 mt-15">
-          <div>
+          <div class="lg:grid grid-cols-2">
             <div class="shadow-3 m-7 p-2 hover:indigo-950 inline-block cursor-pointer">
               <img src="img/layout-grid-fill.png" alt="" class="mb-3">
               <h1 class="text-2xl mb-3">
@@ -390,7 +374,7 @@
         How does it work?
         </b>
       </h3>
-      <div>
+      <div class="lg:grid grid-cols-2 md:grid grid-cols-2">
         <div class="bg-gray-300 m-7 h-50 rounded-2xl">
           <div>
             <div class="flex pt-5">
@@ -529,9 +513,9 @@
 
          <div class="bg-gray-300 m-7 h-50 rounded-2xl mt-15">
 
-            <div class="flex items-center justify-between justify-center bg-gray mt-5 ">
+            <div class="flex items-center justify-between justify-center bg-gray  border-2  ">
             
-               <input type="email" id="Email" placeholder="Your Email" class="rounded-2xl bg-gray-700 w-70 -mx-7 mt-9 h-9">
+               <input type="email" id="Email" placeholder="Your Email" class="rounded-2xl text-white  bg-gray-700   mt-9 h-10 -mx-10">
               </div>
 
 
@@ -581,14 +565,14 @@
 <!--     section 8 start here  -->
 
 
-    <section class="mt-15">
-<div>
-  <p class="text-center">
+<section class="mt-15 ">
+<div class="-">
+  <p class="text-center text-xl">
     saflow
   </p>
 
 
-  <h1 class="text-center text-2xl">
+  <h1 class="text-center mb-15 lg:mb-30 text-5xl">
     <b>
     Pricing
     </b>
@@ -601,13 +585,13 @@
 
 
   
-
-  <div class="bg-black p-5 rounded-lg h-full m-4">
+<div class="lg:hidden">
+ <div class="bg-black p-5 rounded-lg h-full m-4 lg:-mt-5">
 
     <div class=" mb-4 ">
       <h3 class="text-white">
         <b>
-          FREE
+          BASIC
         </b>
       </h3>
       <img src="img/$0.png" alt="" class="">
@@ -656,7 +640,11 @@
       </h1>
     </div>
     
- <button class="text-center mt-2 bg-gray-300 text-white p-3 rounded-2xl  text-xl hover:bg-blue-700 ">
+ 
+
+  
+    
+ <button class="text-center mt-3 lg:mt-10 bg-gray-300 text-white p-3 rounded-2xl  text-xl hover:bg-blue-700 ">
       Get Started
       <img src="img/Group 42405.png" alt="" class="inline-block animate-ping">
     </button>
@@ -670,7 +658,7 @@
   <!--   2nd box start  -->
 
   
-  <div class="bg-black p-5 rounded-lg h-full m-4">
+  <div class="bg-black p-5 rounded-lg h-full m-4 lg:-mt-5">
 
     <div class=" mb-4 ">
       <h3 class="text-white">
@@ -796,8 +784,219 @@
     </button>
 
   </div>
+  </div>
   <!--         3rd box ok    -->
   </div>
+
+  
+
+    
+
+
+
+    <!-- section 8 monitor panel        ---------   -->
+
+
+<div class=" hidden lg:block lg:flex justify-around  ">
+  <div class="bg-black p-5 rounded-lg h-full  px-18 py-17 ">
+
+    <div class=" mb-4 lg:mb-7 -ml-9 ">
+      <h3 class="text-white mb-4">
+        <b>
+          FREE
+        </b>
+      </h3>
+      <img src="img/$0.png" alt="" class="">
+
+    </div>
+
+
+    <div class="border-b-1 -ml-9 border-gray-400  "></div>
+    <div class="flex  -ml-9 mt-10 mb-3 ">
+      <img src="img/chackbox.png" alt="">
+      <h1 class="text-white ml-2">
+        <b>
+          7,000,000+ Events
+        </b>
+      </h1>
+    </div>
+
+     <div class="flex mt-7 -ml-9 ">
+      <img src="img/chackbox.png" alt="">
+      <h1 class="text-white ml-2">
+        <b>
+          4 Custom Domains
+        </b>
+      </h1>
+    </div>
+     <div class="flex mt-7 -ml-9 ">
+      <img src="img/chackbox.png" alt="">
+      <h1 class="text-white ml-2">
+        <b>
+          Dedicated Support Agent
+        </b>
+      </h1>
+      </div>
+     <div class="flex mt-7 -ml-9">
+      <img src="img/chackbox.png" alt="">
+      <h1 class="text-white ml-2">
+        <b>
+          12 Months Data History
+        </b>
+      </h1>
+    </div>
+     <div class="flex mt-7 -ml-9">
+      <img src="img/chackbox.png" alt="">
+      <h1 class="text-white ml-2">
+        <b>
+          1 Dedicated SSL
+        </b>
+      </h1>
+    </div>
+    
+ <button class="text-center -ml-9 mt-15 bg-gray-300 text-white p-3 rounded-2xl  text-xl hover:bg-blue-700 ">
+      Get Started
+      <img src="img/Group 42405.png" alt="" class="inline-block animate-ping">
+    </button>
+
+  </div>
+
+
+
+  <!--   1st box ok    -->
+
+  <!--   2nd box start  -->
+
+  
+  <div class="bg-black p-5 rounded-lg h-full -m-20 px-18 py-17">
+
+    <div class="mb-4 lg:mb-7 -ml-9">
+      <h3 class="text-white mb-4">
+        <b>
+          BASIC
+        </b>
+      </h3>
+      <img src="img/$23 (1).png" alt="" class="">
+
+    </div>
+    <div class="border-b-1 -ml-9 border-gray-400  "></div>
+    <div class="flex  -ml-9 mt-10 mb-3 ">
+      <img src="img/chackbox.png" alt="">
+      <h1 class="text-white ml-2">
+        <b>
+          7,000,000+ Events
+        </b>
+      </h1>
+    </div>
+
+     <div class="flex mt-7 -ml-9 ">
+      <img src="img/chackbox.png" alt="">
+      <h1 class="text-white ml-2">
+        <b>
+          4 Custom Domains
+        </b>
+      </h1>
+    </div>
+     <div class="flex mt-7 -ml-9 ">
+      <img src="img/chackbox.png" alt="">
+      <h1 class="text-white ml-2">
+        <b>
+          Dedicated Support Agent
+        </b>
+      </h1>
+      </div>
+     <div class="flex mt-7 -ml-9">
+      <img src="img/chackbox.png" alt="">
+      <h1 class="text-white ml-2">
+        <b>
+          12 Months Data History
+        </b>
+      </h1>
+    </div>
+     <div class="flex mt-7 -ml-9">
+      <img src="img/chackbox.png" alt="">
+      <h1 class="text-white ml-2">
+        <b>
+          1 Dedicated SSL
+        </b>
+      </h1>
+    </div>
+    
+ <button class="text-center -ml-9 mt-15 bg-blue-300 text-white p-3 rounded-2xl  text-xl hover:bg-blue-700 ">
+      Get Started
+      <img src="img/Group 42405.png" alt="" class="inline-block animate-ping">
+    </button>
+
+  </div>
+
+
+  <!-- 2nd box ok -->
+
+
+  <!--   3rd bos start -->
+     <div class="bg-black p-5 rounded-lg h-full  px-18 py-17">
+
+    <div class=" mb-4 lg:mb-7 -ml-9 ">
+      <h3 class="text-white mb-4">
+        <b>
+          PREMIMUM
+        </b>
+      </h3>
+      <img src="img/$59.png" alt="" class="">
+
+    </div>
+    <div class="border-b-1 -ml-9 border-gray-400  "></div>
+    <div class="flex  -ml-9 mt-10 mb-3 ">
+      <img src="img/chackbox.png" alt="">
+      <h1 class="text-white ml-2">
+        <b>
+          7,000,000+ Events
+        </b>
+      </h1>
+    </div>
+
+     <div class="flex mt-7 -ml-9 ">
+      <img src="img/chackbox.png" alt="">
+      <h1 class="text-white ml-2">
+        <b>
+          4 Custom Domains
+        </b>
+      </h1>
+    </div>
+     <div class="flex mt-7 -ml-9 ">
+      <img src="img/chackbox.png" alt="">
+      <h1 class="text-white ml-2">
+        <b>
+          Dedicated Support Agent
+        </b>
+      </h1>
+      </div>
+     <div class="flex mt-7 -ml-9">
+      <img src="img/chackbox.png" alt="">
+      <h1 class="text-white ml-2">
+        <b>
+          12 Months Data History
+        </b>
+      </h1>
+    </div>
+     <div class="flex mt-7 -ml-9">
+      <img src="img/chackbox.png" alt="">
+      <h1 class="text-white ml-2">
+        <b>
+          1 Dedicated SSL
+        </b>
+      </h1>
+    </div>
+    
+ <button class="text-center -ml-9 mt-15 bg-gray-300 text-white p-3 rounded-2xl  text-xl hover:bg-blue-700 ">
+      Get Started
+      <img src="img/Group 42405.png" alt="" class="inline-block animate-ping">
+    </button>
+
+  </div>
+  </div>
+  <!--         3rd box ok    -->
+  
 
   
 
@@ -805,11 +1004,41 @@
 
     <!--  section 8 end here   -->
 
+
+
     <!--    section 9 sratr here  -->
 
     <section>
-  <div class="grid justify-center bg-blue-600 items-center m-2 p-4 mt-15 rounded-2xl">
-    <p class="text-center mb-3">
+  <div class="lg:flex mx-32 justify-around bg-blue-600 items-center m-2 p-4 mt-15 rounded-2xl hidden lg:block">
+    <div>
+      <p class=" mb-3">
+      Ready to Start?
+    </p>
+
+    <h3 class="text-xl  ">
+      <b>
+        Start your free trial today!
+      </b>
+      
+    </h3>
+
+    </div>
+
+    <div>
+       <button class="text-center mt-2 bg-blue-300 text-white p-3 rounded-2xl animate-pulse hover:bg-blue-700 ">
+      Get Started
+      <img src="img/Group 42405.png" alt="" class="inline-block animate-ping">
+    </button>
+
+    </div>
+    
+   
+    
+  </div>
+  <!-- mobile aquary  -->
+ <div class="grid justify-center bg-blue-600 items-center m-2 p-4 mt-15 rounded-2xl lg:hidden block">
+    
+      <p class="text-center mb-3">
       Ready to Start?
     </p>
 
@@ -820,13 +1049,20 @@
       
     </h3>
 
-    <button class="text-center mt-2 bg-blue-300 text-white p-3 rounded-2xl animate-pulse hover:bg-blue-700 ">
+    
+
+    
+       <button class="text-center mt-2 bg-blue-300 text-white p-3 rounded-2xl animate-pulse hover:bg-blue-700 ">
       Get Started
       <img src="img/Group 42405.png" alt="" class="inline-block animate-ping">
     </button>
 
     
+    
+   
+    
   </div>
+
 </section>
 
 
@@ -835,8 +1071,8 @@
 
 <!--           footer start here             -->
 
-<footer class="bg-black">
-  <div class=" py-4">
+<footer class="bg-black lg:py-22">
+  <div class=" py-4 lg:flex lg justify-around">
     <div class="flex gap-6 items-center justify-center">
       <img src="img/facebook.png" alt="">
       <img src="img/twitter-line 1.svg" alt="">
